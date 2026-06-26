@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* three selectors */
+        /* tag name */
+        h2{
+            color: rgb(188, 6, 6);
+            background-color: rgb(115, 115, 219);
+            text-align: center;
+            font-size: larger;
+        }
+        /* id name */
+        #myid{
+            background-color: rgb(14, 237, 163);
+            color: rgb(206, 212, 17);
+            font-family: fantasy;
+            font-style: italic;
+        }
+        .myclass{
+            background-color: rgb(202, 19, 169);
+        }
+        #b{
+            /* box model */
+            border-color: rgb(7, 5, 15);
+            border-style: double;
+            border-width: 12px;
+            padding-top: 10px;
+            margin: 20px;
+            border-radius: 120px;
+        }
+        body{
+            background-color: rgb(137, 20, 187);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline -->
+    <h1 style="background-color: rgb(3, 97, 66);color: rgb(170, 175, 175);text-align: center;font-size: larger;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;letter-spacing: normal;">welcome all</h1>
+    <!--internal css-->
+    <h2 id ="b">inline css</h2>
+    <h2 id ="myid b">internal css</h2>
+    <h2 class ="myclass"id ="b">external</h2>
+</body>
+</html>
