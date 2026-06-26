@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            width: 100%;
+            font-style: oblique;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introduction to java script</h1>
+    <script>
+        // variable -> data container
+        // int
+        var num1=100;
+        // float
+        var num2=25;
+        document.write("the sum of two values are",num1+num2,"<br> the difference of two values are",num1-num2,"<br> the product of two values are",num1*num2,"<br> the division of two values are",num1/num2)
+        var value1=parseInt(prompt("Enter the first value:"))
+        var value2=parseInt(prompt("Enter the second value:"))
+        document.write("<br><br>The sum of two values are",value1+value2)
+        // function
+        function groupA(){
+            document.write("<br><br>create historical places in india webpage")
+        }
+        groupA()
+        function calc(x,y){
+            document.write("<br>The addition of two values are",(x+y),"<br>The product of two values are",(x*y),"<br>The subtraction of two values are",(x-y),"<br>The division of two values are",(x/y),"<br>")
+        }
+        calc(17,4)
+        calc(-3,354)
+        // array
+        var myarray=["a",14,34.4,"data"]
+        // index number
+        document.write("the values are",myarray[0])
+        document.write("<br> the values are",myarray[1])
+        document.write("<br>the values are",myarray[2])
+        document.write("<br>the values are",myarray[3])
+        // for loop
+        for(i=0; i<10; i++){
+            document.write("<br> the value of is",i,"<br>")
+        }
+        for(let m=0;m<myarray.length;m++){
+            document.write("<br>the value of myarray is",myarray[m])
+        }
+    </script>
+</body>
+</html>
