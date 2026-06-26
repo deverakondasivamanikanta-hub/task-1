@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Black+Ops+One&family=Exo:ital,wght@0,100..900;1,100..900&family=Italiana&family=Lexend+Giga:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+    #maindiv {
+        display: flex;
+        flex-direction: row;
+        grid-template-columns: repeat(3,100px);
+        grid-template-rows: repeat(2,80px);
+        text-align: center;
+        width: 200px;
+    }
+    #maindiv > div{
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid blue;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        font-weight: 800;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        color: black;
+        padding: 20px;
+    }
+    #col2 {
+        margin-left: 50px;
+    }
+    li:hover{
+        color: greenyellow;
+        font-weight: 700;
+    }
+    #header{
+        display: flex;
+        margin: 20px;
+    }
+    select{
+        border: none;
+    }
+    i{
+        font-size: 14px;
+        margin-right: 8px;
+    }
+    .a{
+        color: transparent;
+        background-image: -o-linear-gradient(60 deg,teal green (#075E54) and light green (#25D366), complemented by white (#FFFFFF));
+        -webkit-backface-visibility: text;
+        font-size: 40px;
+    }
+</style>
+</head>
+<body>
+    <div id="maindiv">
+        <div>Home</div>
+        <div>Events</div>
+        <div>Gallery</div>
+        <div>Products</div>
+        <div>Contacts</div>
+        <div>Google</div>
+    </div>
+    <nav>
+        <u1 type="none" id="header">
+            <li><i class="fa-duotone fa-solid fa-table-layout"></i>Events</li>
+            <li><i class="fa-brands fa-whatsapp"></i>App</li>
+            <li>
+                <select>
+                    <option>Watch</option>
+                    <option>Laptop</option>
+                    <option>phone</option>
+                    <option>computer</option>
+                </select>
+            </li>
+        </u1>
+    </nav>
+    <footer>
+        <div id="coloum 1">
+            <ui Type="none">
+                <li>Blog</li>
+                <li>Resources</li>
+                <li>Events</li>
+                <li>Contacts</li>
+            </ui>
+            <div id="coloum2">
+                <ui type="none">
+                    <li>Blog</li>
+                    <li>Resources</li>
+                    <li>Events</li>
+                    <li>Contacts</li>
+                </ui>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
